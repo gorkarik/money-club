@@ -13,7 +13,7 @@ main() {
   set -euo pipefail
 
   # ↓↓↓ ЕДИНСТВЕННОЕ, ЧТО НУЖНО ПОМЕНЯТЬ: адрес вашего репозитория ↓↓↓
-  local REPO_URL="${MONEYCLUB_REPO:-https://github.com/ВАШ_ГИТХАБ/money-club.git}"
+  local REPO_URL="${MONEYCLUB_REPO:-https://github.com/gorkarik/money-club.git}"
   local APP_DIR="${MONEYCLUB_DIR:-$HOME/money-club}"
 
   say()  { printf '\n  \033[1m%s\033[0m\n' "$*"; }
